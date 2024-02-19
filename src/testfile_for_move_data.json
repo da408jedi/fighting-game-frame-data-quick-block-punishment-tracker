@@ -1,0 +1,238 @@
+{
+"fighters":
+  [
+  	{"name": "Alisa",
+  	"movelist": 
+      [
+    		{"id": 1,
+        "movename": "Stop Bit",
+    		"movenotation": "1",
+    		"startupframes": 10,
+    		"onblock": 1,
+    		"notes": "N/A"},
+        {"id": 2,
+        "movename": "Stop Bit",
+        "movenotation": "1, 1",
+        "startupframes": 10,
+        "onblock": -3,
+        "notes": "N/A"},
+    		{"id": 3,
+        "movename": "Typing Combo",
+    		"movenotation": "1, 2",
+    		"startupframes": 10,
+    		"onblock": -3,
+    		"notes": "N/A"},
+        {"id": 4,
+        "movename": "Liftoff Combo",
+        "movenotation": "1, 2, 2",
+        "startupframes": 10,
+        "onblock": -9,
+        "notes": "N/A"},
+        {"id": 5,
+        "movename": "Cool Punch Combo",
+        "movenotation": "1, 2, d+2",
+        "startupframes": 10,
+        "onblock": -11,
+        "notes": "N/A"},
+        {"id": 6,
+        "movename": "Troubleshooting",
+        "movenotation": "2",
+        "startupframes": 12,
+        "onblock": -6,
+        "notes": "N/A"},
+        {"id": 7,
+        "movename": "Troubleshooting",
+        "movenotation": "2, on hit or block 2",
+        "startupframes": 12,
+        "onblock": -13,
+        "notes": "N/A"},
+        {"id": 8,
+        "movename": "Down Time",
+        "movenotation": "2, 3",
+        "startupframes": 12,
+        "onblock": -10,
+        "notes": "N/A"},
+        {"id": 9,
+        "movename": "Down Time",
+        "movenotation": "2, 3, 3",
+        "startupframes": 12,
+        "onblock": -11,
+        "notes": "N/A"},
+        {"id": 10,
+        "movename": "Down Link",
+        "movenotation": "2, 3, 4",
+        "startupframes": 12,
+        "onblock": -13,
+        "notes": "N/A"}
+  		]
+  	},
+    {"name": "Asuka",
+    "movelist": 
+      [
+        {"id": 1,
+        "movename": "TEST",
+        "movenotation": "TEST",
+        "startupframes": 10,
+        "onblock": -6,
+        "notes": "N/A"},
+
+        {"id": 2,
+        "movename": "TEST",
+        "movenotation": "TEST",
+        "startupframes": 10,
+        "onblock": -13,
+        "notes": "N/A"}
+      ]
+    },
+    {"name": "Azucena",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Bryan",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Claudio",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Devil Jin",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Dragunov",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Feng",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Hwoarang",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Jack-8",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Jin",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Jun",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Kazuya",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "King",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Kuma",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Lars",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Law",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Lee",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Leo",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Leroy",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Lili",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Nina",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Panda",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Paul",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Raven",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Reina",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Shaheen",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Steve",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Victor",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Xiaoyu",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Yoshimitsu",
+    "movelist":
+      [  
+      ]
+    },
+    {"name": "Zafina",
+    "movelist":
+      [  
+      ]
+    }
+  ] 
+}

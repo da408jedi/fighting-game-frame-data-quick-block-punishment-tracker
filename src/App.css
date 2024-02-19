@@ -1,0 +1,88 @@
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.calculator h3, h4 {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.calculator {
+  font-family: Tahoma;
+}
+
+.calculator .punishing-moves {
+  border-style: dotted;
+  border-width: 1px;
+  height: 300px;
+  overflow: auto;
+}
+
+.dropdown {
+  width: 200px;
+  height: 700px;
+  margin: 25px auto;
+  overflow: auto;
+}
+
+.dropdown .dropdown-header {
+  font-family: Tahoma;
+  text-align: center;
+  background: #0f079e;
+  color: white;
+}
+
+.dropdown .dropdown-button {
+  padding: 10px 18px;
+  background: #0f079e;
+  font-weight: bold;
+  font-family: Tahoma;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-button:hover {
+  background: #5f2c7a;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-content {
+  text-align: center;
+}
+
+.dropdown .dropdown-content .dropdown-listed-item {
+  padding: 0 0 0 10px;
+  font-family: Tahoma;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.dropdown .dropdown-content .dropdown-listed-item:hover {
+  color:red;
+  cursor: pointer;
+}
+
+.centerpiece {
+  padding: 10px 30px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+
+.centerpiece p, ul {
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+.centerpiece h1 {
+  font-size: 25px;
+  font-family: Tahoma;
+  text-align: center;
+  color:red;
+}

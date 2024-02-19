@@ -1,0 +1,38 @@
+{fighters.map((item) => (
+//   <div key={item.name}>
+//     <h1>{item.name}</h1>
+
+//     {item.movelist.map((move) => (
+//       <div key={move.movename + move.id}>
+//         <b>
+//           {move.movename}: {move.movenotation} - i{move.startupframes},{" "}
+//           {move.onblock} on block
+//         </b>
+//       </div>
+//     ))}
+//   </div>
+// ))}
+
+
+
+function Dropdown({status, isSelected, setProperty, data, data_segment, listed_item_key}) {
+
+  return (
+    <div className="dropdown">
+      <div className="dropdown-header">{status}</div>
+      <div className="dropdown-button" onClick={(e) => isSelected(!setProperty)}>
+        CHOOSE ▼
+      </div>
+      {isSelected && (
+        <div className="dropdown-content">
+          {data.map((item) => (
+            <div className="dropdown-listed-item" key={listed_item_key}>
+              {data_segment}
+            </div>
+          ))}
+        </div>     
+        )}
+    </div>
+  );
+
+}
