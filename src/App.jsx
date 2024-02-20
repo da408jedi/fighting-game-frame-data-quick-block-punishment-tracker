@@ -25,6 +25,37 @@ function App() {
 
   return (
     <div className="mainDiv">
+      {/* title div */}
+      <div className="centerpiece">
+        <h1>Tekken 8 (or any other fighting game)<br /> Quick Block Punishment Checker</h1>
+        <p><b>How to use:</b></p>
+        <ul>
+          <li>Select the attacking fighter whose attack will get blocked</li>
+          <li>Select the defending fighter that will punish the attack on block</li>
+          <li>Select the attacking fighter's specific move</li>
+          <li>Attacker's stun frames on block will be compared with the defending fighter's move startup, and the possible moves that will result will be listed on the defending fighter's side</li>
+          <li><b>Important:</b> This tool does not take into account if players are crouching on block.</li>
+        </ul>
+      </div>
+      {/* punishment div */}
+      <div className="centerpiece">
+        <div className="calculator">
+          <h3>Attacker's Move:</h3>
+          <b>{selectedMove1}</b>
+          <h4>is {selectedMoveOnBlock1} on block,<br />and can be block punished by the following moves:</h4>
+            <div className="punishing-moves">
+              {moveList2.map((move) => (
+                <div key={move.movename + move.id + "2"}>
+                {FrameSum(selectedMoveOnBlock1, move.startupframes) &&
+                  <div key={move.movename + move.id}>- i{move.startupframes}: <b>{move.movenotation}</b>
+                  </div>
+                }
+                </div>
+              ))}
+            </div>
+        </div>
+
+      </div>
       {/* dropdown 1 */}
       <div className="dropdown">
         <div className="dropdown-header">SELECT THE ATTACKING FIGHTER</div>
@@ -72,35 +103,6 @@ function App() {
           </div>
         )}
       </div>}
-      {/* center div*/}
-      <div className="centerpiece">
-        <h1>Tekken 8 (or any other fighting game)<br /> Quick Block Punishment Checker</h1>
-        <div className="calculator">
-          <h3>Attacker's Move:</h3>
-          <b>{selectedMove1}</b>
-          <h4>is {selectedMoveOnBlock1} on block,<br />and can be block punished by the following moves:</h4>
-            <div className="punishing-moves">
-              {moveList2.map((move) => (
-                <div key={move.movename + move.id + "2"}>
-                {FrameSum(selectedMoveOnBlock1, move.startupframes) &&
-                  <div key={move.movename + move.id}>- i{move.startupframes}: <b>{move.movenotation}</b>
-                  </div>
-                }
-                </div>
-              ))}
-            </div>
-        </div>
-        
-        <p><b>How to use:</b></p>
-        <ul>
-          <li>Select the attacking fighter whose attack will get blocked</li>
-          <li>Select the defending fighter that will punish the attack on block</li>
-          <li>Select the attacking fighter's specific move</li>
-          <li>Attacker's stun frames on block will be compared with the defending fighter's move startup, and the possible moves that will result will be listed on the defending fighter's side</li>
-          <li><b>Important:</b> This tool does not take into account if players are crouching on block.</li>
-        </ul>
-        
-      </div>
       {/* dropdown 2 */}
       <div className="dropdown">
         <div className="dropdown-header">SELECT THE DEFENDING FIGHTER</div>

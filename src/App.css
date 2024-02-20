@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   background-color: #ffffff;
   color: #000000;
+  border-style: solid;
 }
 
 .calculator h3, h4 {
@@ -24,9 +25,8 @@
 
 .dropdown {
   width: 200px;
-  height: 700px;
+  height: 400px;
   margin: 25px auto;
-  overflow: auto;
 }
 
 .dropdown .dropdown-header {
@@ -53,6 +53,8 @@
 
 .dropdown .dropdown-content {
   text-align: center;
+  height: 400px;
+  overflow: auto;
 }
 
 .dropdown .dropdown-content .dropdown-listed-item {
@@ -73,6 +75,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 20px;
+  margin: 25px auto;
 }
 
 .centerpiece p, ul {
@@ -81,7 +84,7 @@
 }
 
 .centerpiece h1 {
-  font-size: 25px;
+  font-size: 22px;
   font-family: Tahoma;
   text-align: center;
   color:red;
